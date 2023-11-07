@@ -30,7 +30,7 @@ fs.readFile(path.join(__dirname,'file','start.txt'),'utf8', (err, data) => {//ut
 //         if(err) throw err;
 //         console.log('Write complete');
 //       })
-//   })
+//   }) 
 
 
   process.on('uncaughtException',err=>{
